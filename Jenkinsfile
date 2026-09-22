@@ -40,6 +40,7 @@ pipeline {
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres123
 POSTGRES_DB=ecommerce
+REACT_APP_BACKEND_URL=http://16.4.19.228:8000
 EOF
 
                 mkdir -p backend
